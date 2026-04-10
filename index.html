@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokendra Sharma | Full Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+
+body{
+color:#e5e7eb;
+line-height:1.6;
+background:linear-gradient(-45deg,#0f172a,#020617,#0ea5e9,#38bdf8);
+background-size:400% 400%;
+animation:gradientBG 10s ease infinite;
+}
+@keyframes gradientBG{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
+header{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}
+
+h1{font-size:4rem}
+.highlight{color:#ffffff}
+
+p{color:#d1d5db;margin-top:10px;max-width:600px}
+
+.btn{margin:10px;padding:12px 25px;border:1px solid #fff;color:#fff;border-radius:30px;text-decoration:none;transition:.3s}
+.btn:hover{background:#fff;color:black}
+
+.profile-img{width:150px;height:150px;border-radius:50%;margin-bottom:20px;border:4px solid white;object-fit:cover}
+
+section{padding:80px 20px;max-width:1100px;margin:40px auto;background:rgba(0,0,0,0.4);border-radius:15px;backdrop-filter:blur(10px)}
+
+h2{text-align:center;margin-bottom:25px;font-size:2rem}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+
+.card{padding:20px;border-radius:12px;transition:.3s;background:rgba(255,255,255,0.1)}
+.card:hover{transform:translateY(-8px) scale(1.03);box-shadow:0 0 25px #38bdf8}
+
+.card img{width:100%;height:180px;object-fit:cover;border-radius:10px;margin-bottom:15px}
+
+.skills{text-align:center}
+.skills span{display:inline-block;padding:8px 14px;border:1px solid #fff;margin:8px;border-radius:20px}
+
+.timeline{border-left:2px solid #38bdf8;padding-left:20px}
+.timeline div{margin:15px 0}
+
+footer{text-align:center;padding:40px;color:#e5e7eb}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" class="profile-img">
+<h1>Hi, I'm <span class="highlight">Lokendra</span></h1>
+<p>Software Developer | MERN Stack | DSA Enthusiast</p>
+<a href="#projects" class="btn">View Projects</a>
+<a href="resume.pdf" class="btn">Download Resume</a>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p style="text-align:center">I am a B.Tech Computer Science student passionate about software development and problem solving. I specialize in C++, Data Structures and backend development using Node.js. I am actively looking for internship opportunities.</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<span>C++</span><span>DSA</span><span>JavaScript</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>HTML</span><span>CSS</span><span>Git</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4">
+<h3>Food Delivery App</h3>
+<p>Full stack app with REST APIs, authentication, cart system and dynamic UI.</p>
+<a href="https://github.com/your-username/food-app" class="btn">GitHub</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+<h3>Portfolio Website</h3>
+<p>Modern animated portfolio with responsive UI and clean design.</p>
+<a href="https://your-username.github.io/portfolio" class="btn">Live</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+<h3>DSA Practice</h3>
+<p>Solved 100+ problems focusing on optimization and logic building.</p>
+<a href="https://github.com/your-username/dsa" class="btn">GitHub</a>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Experience / Journey</h2>
+<div class="timeline">
+<div><b>2024:</b> Started Programming (C++)</div>
+<div><b>2025:</b> Learned Web Development (HTML, CSS, JS, Node)</div>
+<div><b>2026:</b> Built Projects & Preparing for Placements</div>
+</div>
+</section>
+
+<section>
+<h2>Contact</h2>
+<p style="text-align:center">Email: lokendra.dev@gmail.com</p>
+<p style="text-align:center">GitHub: github.com/your-username</p>
+</section>
+
+<footer>
+<p>© 2026 Lokendra Sharma | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
